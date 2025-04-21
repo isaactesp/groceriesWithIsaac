@@ -1,0 +1,75 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+/* General body styling */
+body {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    background-color: #f4fff0; /* Light green background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark grey text */
+    text-align: center; /* Center-align all content */
+}
+
+/* Header container styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    padding: 20px;
+    background-color: #f4fff0; /* Match the body background */
+    gap: 20px; /* Add spacing between the logo and the title */
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none; /* Remove underline from the logo link */
+}
+
+.logo img {
+    width: 160px; /* Adjust the size of the logo */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
+/* Page title styling */
+h1 {
+    color: #388e3c; /* Green header text */
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0; /* Reduce spacing around the title */
+}
+
+/* Confirmation message styling */
+p {
+    font-size: 18px;
+    color: #333; /* Dark grey text */
+    margin: 10px 0; /* Add spacing between paragraphs */
+}
+
+/* Return to Home button styling */
+a.return-home {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #388e3c; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+a.return-home:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+}

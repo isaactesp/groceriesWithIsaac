@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+
+/* General body styling */
+body {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    background-color: #f4fff0; /* Light green background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark grey text */
+}
+
+/* Header container styling */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px; /* Add padding for spacing */
+    background-color: #f4fff0; /* Same as body background for seamless transition */
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px; /* Adjust the size of the logo */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
+/* Cart title styling */
+.cart-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #388e3c; /* Green text for the title */
+    margin-left: 20px; /* Add spacing between the logo and the title */
+}
+
+/* Cart container styling */
+.cart-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional look */
+}
+
+/* Product styling in the cart */
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #b6dcb3; /* Light green border */
+}
+
+.product:last-child {
+    border-bottom: none; /* Remove border for the last product */
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.product h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #388e3c; /* Green text for product titles */
+    margin: 0;
+}
+
+.product p {
+    font-size: 14px;
+    color: #666; /* Grey text for prices and details */
+    margin: 0;
+}
+
+.product form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #b6dcb3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product button {
+    background-color: #388e3c; /* Green button */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.product button:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+}
+
+.product button.remove-from-cart {
+    background-color: #b71c1c; /* Red button for remove */
+}
+
+.product button.remove-from-cart:hover {
+    background-color: #8e0000; /* Darker red on hover */
+}
+
+/* Cart total styling */
+.cart-total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #388e3c; /* Green text for total price */
+    margin-top: 20px;
+    margin-right: 40px; /* Add spacing from the right edge of the screen */
+}
+
+/* Clear Cart button styling */
+.clear-cart {
+    background-color: #b71c1c; /* Red button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+    margin: 10px 0; /* Add vertical spacing between buttons */
+    margin-left:10px;
+    font-family: 'Special Gothic Expanded One', sans-serif; /* Ensure font is applied */
+
+}
+
+.clear-cart:hover {
+    background-color: #8e0000; /* Darker red on hover */
+}
+
+/* Place Order button styling */
+.place-order {
+    background-color: #b0b0b0; /* Grey button when disabled */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: not-allowed;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+    margin: 10px 0; /* Add vertical spacing between buttons */
+    margin-left:10px;
+    font-family: 'Special Gothic Expanded One', sans-serif; /* Ensure font is applied */
+
+}
+
+.place-order.enabled {
+    background-color: #388e3c; /* Green button when enabled */
+    cursor: pointer;
+}
+
+.place-order.enabled:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+}
+
+/* Back to Products button styling */
+.back-to-products {
+    display: inline-block;
+    margin-top: 10px; /* Add spacing above the button */
+    margin-left:10px;
+    margin-bottom:10px;
+    text-decoration: none;
+    background-color: #388e3c; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.back-to-products:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+/* General body styling */
+body {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    background-color: #f4fff0; /* Light green background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark grey text */
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    padding: 2px;
+    background-color: #f4fff0; /* Match the body background */
+}
+
+.logo a {
+    text-decoration: none; /* Remove underline from the logo link */
+}
+
+.logo img {
+    width: 180px; /* Adjust the size of the logo */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
+/* Page title styling */
+h1 {
+    text-align: center;
+    color: #388e3c; /* Green header text */
+    margin-top: 3px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Form container styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #b6dcb3; /* Light green border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional look */
+}
+
+/* Form label styling */
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #388e3c; /* Green text for labels */
+    margin-bottom: 5px;
+}
+
+/* Form input styling */
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b6dcb3; /* Light green border */
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333; /* Dark grey text */
+    background-color: #f9f9f9; /* Light background for inputs */
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="tel"]:focus,
+form input[type="email"]:focus,
+form select:focus {
+    border-color: #388e3c; /* Green border on focus */
+    outline: none;
+    background-color: #e8f5e9; /* Light green background on focus */
+}
+
+/* Form button styling */
+form button.submit-order {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    background-color: #388e3c; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%; /* Full-width button */
+    margin-top: 10px;
+}
+
+form button.submit-order:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+}
+
+/* Disabled button styling */
+button.submit-order.disabled {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    background-color: #b0b0b0; /* Grey background */
+    color: #ffffff; /* White text */
+    cursor: not-allowed; /* Show not-allowed cursor */
+    pointer-events: none; /* Disable all interactions */
+    opacity: 0.6; /* Make it slightly transparent */
+}
+
+/* Address section styling */
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #388e3c; /* Green text for section titles */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Back to Cart link styling */
+a.back-to-cart {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #388e3c; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+a.back-to-cart:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+}
