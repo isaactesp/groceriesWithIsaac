@@ -81,7 +81,7 @@ Back-end logic is handled using PHP, while JavaScript provides dynamic interacti
 ### 1. Set Up the Database
 
 - Create a MySQL DB named `assignment1`
-- Import your tables (e.g., `products`)
+- Import your tables (e.g., `products`), with the next structure poducts(product_id(PK), product_name, unit_price, unit_quantity, in_stock, type, subtype). 
 
 ### 2. Configure Environment
 
