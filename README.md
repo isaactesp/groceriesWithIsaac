@@ -74,26 +74,6 @@ Back-end logic is handled using PHP, while JavaScript provides dynamic interacti
 
 ---
 
-## 🎨 Fonts and Colors
-
-### Fonts
-- **Primary Font:** *Special Gothic Expanded One* (Google Fonts)
-
-### Colors
-- **Green Palette**  
-  - `#388e3c` — Primary button/navigation green  
-  - `#2e7d32` — Hover green  
-  - `#81c784` — Background/light green
-
-- **Greys**  
-  - `#b0b0b0` — Disabled buttons  
-  - `#888888` — Placeholder text
-
-- **White**  
-  - For clean background and text contrast
-
----
-
 ### 📂 images/ (Pictures for every product in the database)
 
 ## 🚀 How to Run the Project
